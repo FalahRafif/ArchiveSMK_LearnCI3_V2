@@ -14,6 +14,9 @@
     <link href="<?= base_url(); ?>asset/css/animate.css" rel="stylesheet">
     <link href="<?= base_url(); ?>asset/css/style.css" rel="stylesheet">
 
+    <!-- my css -->
+    <link href="<?= base_url(); ?>asset/css/css.css" rel="stylesheet">
+
 </head>
 <body>
 
