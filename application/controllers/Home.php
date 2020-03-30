@@ -7,6 +7,7 @@ class Home extends CI_Controller {
         $data['nav']['navacchome'] = $data['navacchome'] = 'active';
         $data['nav']['navaccabout'] = $data['navaccabout'] = '';
         $data['nav']['navaccuks'] = $data['navaccuks'] = '';
+        $data['nav']['navaccpeople'] = $data['navaccpeople'] = '';
 
         $data['judul'] = 'Halaman Home';
         $data['nama'] = $nama;

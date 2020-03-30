@@ -26,6 +26,9 @@
                 <li class="<?= $nav['navaccuks'];?>">
                     <a  href="<?= base_url(); ?>uks/index"><i class="fa fa-hospital-o"></i> <span class="nav-label">UKS</span></a>
                 </li>
+                <li class="<?= $nav['navaccpeople'];?>">
+                    <a  href="<?= base_url(); ?>people/index"><i class="fa fa-user"></i> <span class="nav-label">People</span></a>
+                </li>
                 
                 <!-- <li >
                     <a href="#"><i class="fa fa-search"></i> <span class="nav-label">CRUD</span><span class="fa arrow"></span></a>

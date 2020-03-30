@@ -18,6 +18,7 @@ class Uks extends CI_Controller {
         $data['nav']['navacchome'] = $data['navacchome'] = '';
         $data['nav']['navaccabout'] = $data['navaccabout'] = '';
         $data['nav']['navaccuks'] = $data['navaccuks'] = 'active';
+        $data['nav']['navaccpeople'] = $data['navaccpeople'] = '';
         
         
         $data['judul'] = "Home / index";
@@ -36,6 +37,7 @@ class Uks extends CI_Controller {
         $data['nav']['navacchome'] = $data['navacchome'] = '';
         $data['nav']['navaccabout'] = $data['navaccabout'] = '';
         $data['nav']['navaccuks'] = $data['navaccuks'] = 'active';
+        $data['nav']['navaccpeople'] = $data['navaccpeople'] = '';
         
         $data['judul'] = "Home / index";
 
@@ -70,8 +72,7 @@ class Uks extends CI_Controller {
         $data['nav']['navacchome'] = $data['navacchome'] = '';
         $data['nav']['navaccabout'] = $data['navaccabout'] = '';
         $data['nav']['navaccuks'] = $data['navaccuks'] = 'active';
-                
-        $data['judul'] = "Home / detail";
+        $data['nav']['navaccpeople'] = $data['navaccpeople'] = '';         
         
         $data['uks'] = $this->uks_model->getUksById($id);
         $this->load->view('templates/header', $data);
@@ -84,6 +85,7 @@ class Uks extends CI_Controller {
         $data['nav']['navacchome'] = $data['navacchome'] = '';
         $data['nav']['navaccabout'] = $data['navaccabout'] = '';
         $data['nav']['navaccuks'] = $data['navaccuks'] = 'active';
+        $data['nav']['navaccpeople'] = $data['navaccpeople'] = '';
         
         $data['judul'] = "Home / ubah";
 
