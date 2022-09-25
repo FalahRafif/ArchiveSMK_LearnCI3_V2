@@ -35,7 +35,6 @@
 							</form>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -56,7 +55,7 @@
 						<li class="list-group-item">
 							<?= $uks['nama'] ?>
 							<a href="<?= base_url(); ?>uks/hapus/<?= $uks['id']; ?>"
-								class="badge badge-danger float-right" onclick="return confirm('Yakin ?')"><i class="fa fa-trash"></i></a>
+								class="badge badge-danger float-right" onclick="return confirm('Yakin Ingin Menghapus nya ?')"><i class="fa fa-trash"></i></a>
 							<a href="<?= base_url(); ?>uks/ubah/<?= $uks['id']; ?>"
 								class="badge badge-warning float-right"><i class="fa fa-edit"></i></a>
 							<a href="<?= base_url(); ?>uks/detail/<?= $uks['id']; ?>"

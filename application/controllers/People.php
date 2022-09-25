@@ -9,8 +9,8 @@ class People extends CI_Controller {
     {
         $data['nav']['navacchome'] = $data['navacchome'] = '';
         $data['nav']['navaccabout'] = $data['navaccabout'] = '';
-        $data['nav']['navaccuks'] = $data['navaccuks'] = 'active';
-        $data['nav']['navaccpeople'] = $data['navaccpeople'] = '';
+        $data['nav']['navaccuks'] = $data['navaccuks'] = '';
+        $data['nav']['navaccpeople'] = $data['navaccpeople'] = 'active';
         
         
         $data['judul'] = "People / index";

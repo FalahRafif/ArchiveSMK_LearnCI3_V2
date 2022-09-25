@@ -20,9 +20,6 @@
                 <li class="<?= $nav['navacchome'];?>">
                     <a  href="<?= base_url(); ?>home/index"><i class="fa fa-home"></i> <span class="nav-label">Home</span></a>
                 </li>
-                <li class="<?= $nav['navaccabout'];?>">
-                    <a  href="<?= base_url(); ?>about/index"><i class="fa fa-question"></i> <span class="nav-label">About</span></a>
-                </li>
                 <li class="<?= $nav['navaccuks'];?>">
                     <a  href="<?= base_url(); ?>uks/index"><i class="fa fa-hospital-o"></i> <span class="nav-label">UKS</span></a>
                 </li>
